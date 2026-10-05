@@ -55,7 +55,7 @@ cd ExamenP1--Manejo-Masivo-De-Datos
 **2. Crea el entorno virtual**
 En windows:
 ```
-python -m venv .venv
+py -m venv .venv
 ```
 
 En Linux:
