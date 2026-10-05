@@ -20,7 +20,7 @@ Repositorio del primer examen parcial sobre manejo y análisis de datos de senso
 ##  Objetivo del Proyecto
 El objetivo de este proyecto es analizar y procesar lecturas de sensores industriales distribuidos en distintas plantas operativas. 
 
-> [!NOTE]
+> [!NOTA]
 > **Aviso de datos:** Los datos contenidos en este repositorio son **simulados** con fines académicos y de demostración de arquitectura de datos. No corresponden a sensores ni plantas industriales reales.
 
 ---
