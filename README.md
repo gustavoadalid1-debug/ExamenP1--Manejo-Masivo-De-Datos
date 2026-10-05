@@ -53,28 +53,40 @@ cd ExamenP1--Manejo-Masivo-De-Datos
 
 **2. Crea el entorno virtual**
 En windows:
-```python -m venv .venv```
+```
+python -m venv .venv
+```
 
 En Linux:
-```python3 -m venv .venv```
+```
+python3 -m venv .venv
+```
 
 **3. Activa el entorno virtual**
 En Linux:
-```source venv/bin/activate```
+```
+source venv/bin/activate
+```
 
 En Windows:
-```venv\Scripts\activate```
+```
+venv\Scripts\activate
+```
 
 **4. Instala las dependencias**
 Ejecuta el siguiente comando para instalar las librerias necesarias para ejecutar el proyecto.
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 **5. Ejecución del programa**
 Asegurate de estar en la carpeta 'ExamenP1--Manejo-Masivo-De-Datos'
 En la terminal ejecuta el siguiente comando:
 
-```python analisis.py```
+```
+python analisis.py
+```
 
 # Resultados Esperados
 Al ejecutar el script principal, la consola arrojará un resumen descriptivo calculado al vuelo a partir del dataset, incluyendo:
