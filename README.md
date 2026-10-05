@@ -65,12 +65,12 @@ python3 -m venv .venv
 **3. Activa el entorno virtual**
 En Linux:
 ```
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 En Windows:
 ```
-venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 **4. Instala las dependencias**
