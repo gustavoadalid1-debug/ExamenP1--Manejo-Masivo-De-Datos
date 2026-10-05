@@ -4,7 +4,7 @@ Repositorio del primer examen parcial sobre manejo y análisis de datos de senso
 
 ---
 
-## 📋 Información General
+##  Información General
 
 | Concepto | Detalle |
 | :--- | :--- |
@@ -15,7 +15,7 @@ Repositorio del primer examen parcial sobre manejo y análisis de datos de senso
 
 ---
 
-## 📁 Archivos del Proyecto
+## Archivos del Proyecto
 
-* **`informe.md`**: Informe detallado y análisis de resultados.
-* **`README.md`**: Ficha técnica y presentación del repositorio.
+* 
+* 
