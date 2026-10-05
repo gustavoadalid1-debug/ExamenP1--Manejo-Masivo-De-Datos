@@ -1,5 +1,21 @@
-print(#Primer parcial: *análisis de sensores industriales*)
-""Nombres: German Eduardo Ruiz Zuñiga, Gustavo Adalid Catalan Carmen""
-""Modalidad: Parejas, en computadora""
-""Duración: 120 minutos""
-""Valor: 40 puntos, equivalentes al 40% del parcial.""
+# Primer Parcial: Análisis de Sensores Industriales
+
+Repositorio del primer examen parcial sobre manejo y análisis de datos de sensores industriales.
+
+---
+
+## 📋 Información General
+
+| Concepto | Detalle |
+| :--- | :--- |
+| **Integrantes** | • Germán Eduardo Ruiz Zúñiga<br>• Gustavo Adalid Catalán Carmen |
+| **Modalidad** | Parejas (en computadora) |
+| **Duración** | 120 minutos |
+| **Valor** | 40 puntos (40% de la calificación parcial) |
+
+---
+
+## 📁 Archivos del Proyecto
+
+* **`informe.md`**: Informe detallado y análisis de resultados.
+* **`README.md`**: Ficha técnica y presentación del repositorio.
