@@ -28,7 +28,7 @@ Las limitaciones ya aparecerian al aumentar la escala de los sensores, o si ya l
 *   **Enfoque para emitir una alerta en pocos segundos:** Podria servir un enfoque de Streaming, porque las alertas de seguridad son críticas en el tiempo. Procesar los datos en el instante en que se generan permite reaccionar rapidamente, es decir, la baja latencia, para apagar la maquina antes de un daño severo.
 *   **Enfoque para generar un resumen al terminar el dia:** Usaria un enfoque **Batch**, ya que los archivos que se generan al final del dia ya no requieren respuestas en milisegundos. Procesar todos los datos juntos al final del dia es mas eficiente y nos permite consolidar la informacion historica de forma precisa.
 
-## 8. Lambda y Kappa
+## Lambda y Kappa
 
 *   **Escenario A (Arquitectura Lambda):**
     *   *Justificación:* La arquitectura Lambda es ideal para este escenario porque mantiene dos rutas separadas: una Capa Batch para recalcular todo el historial garantizando exactitud, y una Capa Speed (el streaming) para dar resultados rapidos de las mediciones recientes.
@@ -42,7 +42,7 @@ Las limitaciones ya aparecerian al aumentar la escala de los sensores, o si ya l
 
 
 
-## 9. Analítica descriptiva, predictiva y prescriptiva
+## Analítica descriptiva, predictiva y prescriptiva
 
 *   **Descriptiva:** 
     1. La temperatura maxima registrada fue de **104.99 °C**, detectada por el sensor **S023** el **01/09/26 a las 22:23**.
