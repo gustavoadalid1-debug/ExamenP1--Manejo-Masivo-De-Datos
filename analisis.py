@@ -19,7 +19,7 @@ print(temp_promedio.to_string())
 
 # Temp Maxima cno los sensores:
 idx_max = df['temperatura_c'].idxmax() 
-temp_max = df.loc[idx_max, 'temperatura_c']
+temp_max = df['temperatura_c'].max()
 sensor_max = df.loc[idx_max, 'id_sensor']
 fecha_max = df.loc[idx_max, 'fecha_hora']
     
@@ -33,11 +33,12 @@ total_alertas = len(alertas_df)
 print(f"\n Lecturas con alerta (temperatura > 85 °C): {total_alertas}")
 
 # Planta con mas alertas de temperatura
-if total_alertas > 0:
-    planta_mas_alertas = alertas_df['planta'].value_counts().idxmax()
-    print(f"\n La Planta con mas alertas de temperatura: {planta_mas_alertas}")
-else:
-    print("\n No hay alertas de temperatura.")
+for _, f in df[df['temperatura_c'] == temp_max].iterrows():
+    print(f"{temp_max} °C - Sensor {f['id_sensor']} - {f['fecha_hora']}")
+
+conteo = alertas_df['planta'].value_counts()
+for planta in conteo[conteo == conteo.max()].index:
+    print(f"Planta con más alertas: {planta} ({conteo.max()})")
     
 # Exportacion :
 if total_alertas > 0:
