@@ -31,22 +31,14 @@ Las limitaciones ya aparecerian al aumentar la escala de los sensores, o si ya l
 ## 8. Lambda y Kappa
 
 *   **Escenario A (Arquitectura Lambda):**
-    *   *Justificación:* La arquitectura Lambda es ideal para este escenario porque mantiene dos rutas separadas: una "Capa Batch" robusta para recalcular todo el historial garantizando exactitud, y una "Capa Speed" (Streaming) para dar resultados rápidos de las mediciones recientes.
+    *   *Justificación:* La arquitectura Lambda es ideal para este escenario porque mantiene dos rutas separadas: una Capa Batch para recalcular todo el historial garantizando exactitud, y una Capa Speed (el streaming) para dar resultados rapidos de las mediciones recientes.
     *   *Diagrama sencillo:*
         `Sensores -> [ Capa Batch (Historial) / Capa Speed (Reciente) ] -> Capa de Servicio -> Visualización`
 
 *   **Escenario B (Arquitectura Kappa):**
-    *   *Justificación:* La arquitectura Kappa está diseñada para manejar todo como un flujo de eventos continuo. Permite usar una sola lógica de procesamiento (Streaming) y guarda los datos en un registro inmutable, desde el cual se pueden "reproducir" o volver a procesar todas las mediciones cuando sea necesario sin mantener dos sistemas separados.
+    *   *Justificación:* La arquitectura Kappa está diseñada para manejar todo como un flujo de eventos continuo. Permite usar una sola logica de procesamiento (Streaming) y guarda los datos en un registro inmutable, desde el cual se pueden "reproducir" o volver a procesar todas las mediciones cuando sea necesario sin mantener dos sistemas separados.
     *   *Diagrama sencillo:*
-        `Sensores -> Registro Inmutable de Eventos -> Motor de Streaming Único -> Capa de Servicio -> Visualización`
-
-graph LR
-    A[Fuentes de Datos<br/>Sensores de Planta] --> B[Capa de Lotes<br/>Batch Layer]
-    A --> C[Capa de Velocidad<br/>Speed Layer]
-    B --> D[Vistas por Lotes]
-    C --> E[Vistas en Tiempo Real]
-    D --> F[Capa de Servicio<br/>Serving Layer]
-    E --> F
+        `Sensores -> Registro Inmutable de Eventos -> Motor de Streaming Unico -> Capa de Servicio -> Visualizacion`
 
 
 
