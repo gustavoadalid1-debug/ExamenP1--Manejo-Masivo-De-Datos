@@ -45,6 +45,7 @@ Los respectivos resultados del codigo se encuentran en la carpeta "resultados"
 
 # INSTALACION:
 Versión de Python utilizada para la ejecución y creación de requirements.txt: **Python 3.11.9**
+
 **1. Clonar el repositorio**
 Descarga el código a tu computadora y entra al directorio del proyecto:
 ```
