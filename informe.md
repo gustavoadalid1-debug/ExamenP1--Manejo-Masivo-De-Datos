@@ -45,7 +45,7 @@ Las limitaciones ya aparecerian al aumentar la escala de los sensores, o si ya l
 ## Analítica descriptiva, predictiva y prescriptiva
 
 *   **Descriptiva:** 
-    1. La temperatura maxima registrada obtenida fue de **104.99 °C**, detectada por el sensor **S023** el **01/09/26 a las 22:23**. Sin embargo, a la par se encontraron los siguientes registros con la misma temperatura máxima:
+     -La temperatura maxima registrada obtenida fue de **104.99 °C**, detectada por el sensor **S023** el **01/09/26 a las 22:23**. Sin embargo, a la par se encontraron los siguientes registros con la misma temperatura máxima:
 104.99 °C - Sensor S023 - 01/09/26 22:23
 104.99 °C - Sensor S019 - 02/09/26 13:11
 104.99 °C - Sensor S014 - 02/09/26 15:23
@@ -53,7 +53,7 @@ Las limitaciones ya aparecerian al aumentar la escala de los sensores, o si ya l
        
 Todos estos registros equivalen a esa temperatura mas alta, por lo que al menos 4 sensores detectaron una temperatura de 104.99° C.
 
-3. Se encontraron un total de **6,954 alertas** de temperatura mayores a 85°C en toda la base de datos, siendo la **Planta_3** la que presentó la mayor cantidad de incidentes.
+   - Se encontraron un total de **6,954 alertas** de temperatura mayores a 85°C en toda la base de datos, siendo la **Planta_3** la que presentó la mayor cantidad de incidentes.
 
 *   **Predictiva:** 
     *   *Pregunta:* ¿Cuál es la probabilidad de que una máquina falle en las próximas 24 horas si su temperatura promedio se ha mantenido sobre los 80 °C durante la última semana?
